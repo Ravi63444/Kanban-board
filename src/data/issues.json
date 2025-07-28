@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "title": "Fix login bug",
+    "status": "Backlog",
+    "priority": "high",
+    "severity": 4,
+    "createdAt": "2025-07-10T08:00:00Z",
+    "assignee": "alice",
+    "tags": ["auth", "bug"],
+    "userDefinedRank": 2
+  },
+  {
+    "id": "2",
+    "title": "Update dashboard layout",
+    "status": "In Progress",
+    "priority": "medium",
+    "severity": 2,
+    "createdAt": "2025-07-12T12:00:00Z",
+    "assignee": "bob",
+    "tags": ["ui", "layout"],
+    "userDefinedRank": 1
+  },
+  {
+    "id": "3",
+    "title": "Add dark mode",
+    "status": "Done",
+    "priority": "low",
+    "severity": 1,
+    "createdAt": "2025-07-07T09:30:00Z",
+    "assignee": "carol",
+    "tags": ["ui"],
+    "userDefinedRank": 4
+  },
+  {
+    "id": "4",
+    "title": "Optimize database queries",
+    "status": "In Progress",
+    "priority": "high",
+    "severity": 5,
+    "createdAt": "2025-07-11T15:45:00Z",
+    "assignee": "dave",
+    "tags": ["backend", "performance"],
+    "userDefinedRank": 3
+  },
+  {
+    "id": "5",
+    "title": "Refactor state management",
+    "status": "Backlog",
+    "priority": "medium",
+    "severity": 3,
+    "createdAt": "2025-07-05T11:00:00Z",
+    "assignee": "eve",
+    "tags": ["frontend", "refactor"],
+    "userDefinedRank": 5
+  },
+  {
+    "id": "6",
+    "title": "Write integration tests",
+    "status": "Done",
+    "priority": "low",
+    "severity": 2,
+    "createdAt": "2025-07-09T16:20:00Z",
+    "assignee": "frank",
+    "tags": ["tests", "qa"],
+    "userDefinedRank": 6
+  }
+]
