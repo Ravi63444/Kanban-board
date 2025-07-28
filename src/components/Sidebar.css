@@ -1,0 +1,32 @@
+.sidebarWrapper{
+ padding: 1.5rem;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  max-width: 400px;
+  font-family: 'Segoe UI', sans-serif;
+}
+.sidebarHeader{
+    font-size: 1.5rem;
+  color: #111827;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+ul{
+     list-style-type: none;
+  padding-left: 0;
+}
+li{
+    margin-bottom: 0.75rem;
+}
+.recentIssue-className{
+    color: #2563eb; 
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+.recentIssue-className:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}

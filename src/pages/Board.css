@@ -1,0 +1,45 @@
+.columnHeader{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8; 
+  color: #333;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #cbd5e1;
+  box-shadow: inset 0 -1px 0 #e2e8f0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.columnHeader.backlog { background-color: #fdf381; }      
+.columnHeader.inprogress { background-color: #e0f2fe; }   
+.columnHeader.done { background-color: #dcfce7; } 
+
+.issueDetails{
+    width:60%;
+   background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-family: 'Segoe UI', sans-serif;
+  text-decoration: none;
+}
+.issueDetails:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.navBtn{
+    background-color: "#eee";
+            border: "none ";
+           height: "30px";
+             width: "30px";
+             border-radius: "50%";
+             cursor: "pointer";
+}

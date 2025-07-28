@@ -28,15 +28,11 @@ const Tasks = ({
       ref={setNodeRef}
     >
       <div
-        style={{
-          height: "40px",
-          backgroundColor: "grey",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
+        className={`columnHeader ${issueStatus
+          .toLowerCase()
+          .replace(/\s/g, "")}`}
       >
-        <h5>{issueStatus}</h5>
+        {issueStatus}
       </div>
       <div style={{ padding: 5 }}>
         {issues.map((data: Issue) => {

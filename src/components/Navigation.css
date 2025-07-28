@@ -1,0 +1,8 @@
+.pageHeader{
+    font-family: 'Segoe UI', sans-serif;
+  font-size: 2.25rem; /* roughly equivalent to 36px */
+  font-weight: 700;   /* bold */
+  color: #5b21b6;     /* deep purple */
+  text-decoration: underline;
+  /* margin-bottom: 1rem; */
+}
